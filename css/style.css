@@ -2,9 +2,15 @@
 *{
     margin: 0;
     padding:0;
+    box-sizing: border-box;
+    outline:0;
 }
 ul,ol {
     list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    padding:0;
 }
 a{
     text-decoration: none;
@@ -60,7 +66,8 @@ a{
 
 /* header part start */
 #headerPart{
-    background: rgb(235, 156, 215);
+    
+    padding: 20px;
 }
 .headerflex{
     display:flex;
@@ -97,3 +104,146 @@ a{
     color:white !important;
 }
 /* header part end */
+
+/* banner part start */
+#bannerpart{
+    padding-top: 272px;
+    padding-bottom:220px;
+    background:url(../images/banner.jpeg);
+    background-repeat:none;
+    background-size:cover;
+    background-position:center 1%;
+}
+.bannercontent{
+    text-align: center;
+    color:white;
+
+}
+.bannercontent h4{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size:15px;
+    font-family: "DM Sans", "Sans Serif";
+    word-spacing: 1px;
+}
+.bannercontent h4 span{
+    font-weight:700;
+}
+.bannercontent h1{
+    font-size:80px;
+    font-weight:700;
+    font-family:"Red Hat Display", serif;
+    padding-bottom: 20px;
+    padding-top:20px;
+}
+.bannercontent p{
+    font-family:"DM Sans", Serif;
+    font-size:18px;
+    font-weight:500;
+    
+    width: 700px;
+    margin: 0 310px;
+    line-height: 26px;
+    }
+.bannercontent a{
+    padding:25px 40px;
+    border-radius: 20px;
+    background:white;
+    margin-top: 40px;
+    color:black;
+    font-weight:700;
+    font-family: "DM Sans",Serif;
+    font-size:16px;
+}
+/* banner part End */
+#aboutus{
+    padding:100px 0;
+}
+.aboutflex{
+    display:flex;
+
+}
+.aboutleft{
+    width: 50%;
+}
+.aboutright{
+    width:50%;
+    padding-left: 200px;
+}
+.aboutright h4{
+    color:#5D666F;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 72px;
+    padding-bottom:40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.aboutright h3{
+    font-size:48px;
+    font-weight:700;
+    font-family:"Red Hat Display", serif;
+    width: 640px;
+
+}
+.aboutright p{
+   font-family: "DM Sans", sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 26px;
+   color: #5d6665; 
+   padding-top:15px;
+}
+.aboutright ul li i{
+    padding-right:5px;
+    padding-bottom:15px;
+    padding-top: 15px;
+  
+
+}
+.aboutright ul li{
+    font-family: "DM Sans", sans-serif;
+    font-size:16px;
+    font-weight:300;
+    
+}
+.aboutright ul{
+    padding-top: 20px;
+}
+.iconbox{
+  
+    background-color: #20282D;
+    padding:4px 14px;
+    display: inline-block;
+    border-radius: 25px;
+}
+.iconbox i{
+    padding:25px 10px;
+    
+    
+}
+.call_icon_contain{
+    padding-top:30px;
+    display:flex;
+}
+.callusanytime span{
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #5d6665;
+    padding-left: 20px;
+}
+.callusanytime h6 a{
+    font-size:20px;
+    font-family: "Red Hat Display",Sans-serif;
+    font-weight: 600;
+    color:black;
+    padding-left: 20px;
+    padding-top:4px;
+    width:190px;
+}
+.call_icon_contain img{
+    padding-left: 40px;
+    
+}
